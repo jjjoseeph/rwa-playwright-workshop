@@ -1,0 +1,6 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+subir-repositorio.bat
+repo-url.txt
