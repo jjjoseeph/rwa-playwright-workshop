@@ -24,4 +24,16 @@ Set `RWA_URL` and `RWA_API_URL` if the app runs on other ports. The tests share 
 
 ## Evidence
 
-`evidence/run-2026-10-20.log` holds the terminal output of the run on 2026-10-20 (17 passed). Screenshots of the HTML report and key states are in the team report.
+Full run on 2026-10-20 (Bogotá time): 17 passed. Terminal output: [`evidence/run-2026-10-20.log`](evidence/run-2026-10-20.log).
+
+| HTML report – 17 of 17 passed | Decision table DT-R2 – steps and screenshot |
+| --- | --- |
+| ![HTML report overview](evidence/report-overview.png) | ![DT-R2 detail](evidence/report-dt-r2.png) |
+
+| AST-01 payment confirmation | DT-R5 both validation messages |
+| --- | --- |
+| ![AST-01](evidence/ast01-payment-confirmation.png) | ![DT-R5](evidence/dt-r5-blocked.png) |
+
+| ST-01 state S3 "Finished" | ST-02 still S1 after Escape |
+| --- | --- |
+| ![ST-01](evidence/st01-state-S3.png) | ![ST-02](evidence/st02-escape-S1.png) |
