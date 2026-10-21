@@ -1,0 +1,23 @@
+Start (Bogotá): 2026-10-20 21:10:08
+Running 17 tests using 1 worker
+  ✓   1 [chromium] › tests/01-locators.spec.ts:10:7 › Module 1 – Locators › LOC-01 sign-in form elements are found by role and label (1.3s)
+  ✓   2 [chromium] › tests/01-locators.spec.ts:24:7 › Module 1 – Locators › LOC-02 payment form and balance are found by placeholder, text and test id (2.4s)
+  ✓   3 [chromium] › tests/01-locators.spec.ts:43:7 › Module 1 – Locators › LOC-03 strictness: an ambiguous locator throws instead of guessing (2.1s)
+  ✓   4 [chromium] › tests/02-actions.spec.ts:10:5 › ACT-01 send a payment using fill, check, press, hover and click (2.8s)
+  ✓   5 [chromium] › tests/03-assertions.spec.ts:14:5 › AST-01 send a payment and verify state, text, value, page and balance (3.3s)
+  ✓   6 [chromium] › tests/03-assertions.spec.ts:53:5 › AST-02 .not and expect.soft examples on the sign-in page (1.3s)
+  ✓   7 [chromium] › tests/04-decision-table.spec.ts:36:9 › Module 4 – Sign-in decision table › DT-R1 (C1 C2 C3 = T T T) → signedIn (2.2s)
+  ✓   8 [chromium] › tests/04-decision-table.spec.ts:36:9 › Module 4 – Sign-in decision table › DT-R2 (C1 C2 C3 = T T F) → rejected (1.8s)
+  ✓   9 [chromium] › tests/04-decision-table.spec.ts:36:9 › Module 4 – Sign-in decision table › DT-R3 (C1 C2 C3 = T F –) → blocked (1.5s)
+  ✓  10 [chromium] › tests/04-decision-table.spec.ts:36:9 › Module 4 – Sign-in decision table › DT-R4 (C1 C2 C3 = F T –) → blocked (1.4s)
+  ✓  11 [chromium] › tests/04-decision-table.spec.ts:36:9 › Module 4 – Sign-in decision table › DT-R5 (C1 C2 C3 = F F –) → blocked (1.4s)
+  ✓  12 [chromium] › tests/05-state-transition.spec.ts:51:7 › Module 5 – Onboarding state model › ST-01 valid sequence S0→S1→S2→S3→S4→S0→S4 (T1–T6) (5.0s)
+  ✓  13 [chromium] › tests/05-state-transition.spec.ts:78:9 › Module 5 – Onboarding state model › ST-02 invalid transition: Dismiss (Escape) in S1 keeps the onboarding dialog open (2.3s)
+  ✓  14 [chromium] › tests/05-state-transition.spec.ts:78:9 › Module 5 – Onboarding state model › ST-02 invalid transition: Dismiss (Escape) in S2 keeps the onboarding dialog open (2.3s)
+  ✓  15 [chromium] › tests/05-state-transition.spec.ts:98:9 › Module 5 – Onboarding state model › ST-03 T7 Logout from S1 returns to S0 (2.3s)
+  ✓  16 [chromium] › tests/05-state-transition.spec.ts:98:9 › Module 5 – Onboarding state model › ST-03 T8 Logout from S2 returns to S0 (2.3s)
+  ✓  17 [chromium] › tests/05-state-transition.spec.ts:108:7 › Module 5 – Onboarding state model › ST-03 T9 Logout from S3 returns to S0 (2.7s)
+  17 passed (39.6s)
+To open last HTML report run:
+  npx playwright show-report
+End (Bogotá): 2026-10-20 21:10:48
